@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./pexels-pixabay-301920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+    width: 40%;
+    display:  flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff29;
+    backdrop-filter: blur(10px);
+}
+h1{
+    color: #fff;
+}
+
+div.input-filed{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskInput{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: #ffffff83;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#addTask{
+    padding: 10px 20PX;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:  #a0522d;
+    color: #fff;
+
+}
+ul#taskList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+li{
+    margin: 5px 0;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffffff21;
+    backdrop-filter: blur(10px);
+}
+.deleteTask {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
